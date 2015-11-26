@@ -1,3 +1,7 @@
+html 
+{
+    background-color: #C1A985;
+}
 
 #PageWrapper {
     display: table;
@@ -26,15 +30,16 @@ font-size: 20px;
 #MainContent
 {
 width: 654px;
+height: 600px;
 float: left;
 }
 
 #Sidebar
 {
-background-color: Gray;
-width: 346px;
-height: 299px;
-float: left;
+    float: left;
+    width: 300px;
+	height: 300px;
+	border-radius: 150px;
 }
 
 #Footer
@@ -47,4 +52,26 @@ float: left;
 img
 {
 border: 0;
+}
+
+.empty 
+{
+    height: 150px;
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../Images/Me.jpg) no-repeat; /* http://oi64.tinypic.com/2pu0cwy.jpg */
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.circular img {
+	opacity: 0;
+	filter: alpha(opacity=0);
 }

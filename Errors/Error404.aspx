@@ -7,5 +7,4 @@
         <p>The page you requested could not be found. Please check out the
             <a href="~/" runat="server">Homepage</a>
         or choose a different page from the menu.</p>
-    <p>The Planet Wrox Team</p>
 </asp:Content>
