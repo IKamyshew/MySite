@@ -1,0 +1,50 @@
+
+#PageWrapper {
+    display: table;
+    margin: auto;
+}
+
+#Header
+{
+border-bottom: 5px solid black;
+width: 1000px;
+height: 86px;
+}
+
+{
+font-family: Arial;
+}
+h1
+{
+font-size: 20px;
+}
+
+#MenuWrapper
+{
+    width: 843px;
+}
+#MainContent
+{
+width: 654px;
+float: left;
+}
+
+#Sidebar
+{
+background-color: Gray;
+width: 346px;
+height: 299px;
+float: left;
+}
+
+#Footer
+{
+    border-top: 5px solid black;
+    width: 1000px;
+    clear: both;
+}
+
+img
+{
+border: 0;
+}
